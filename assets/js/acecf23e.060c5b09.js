@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcozdocs=self.webpackChunkcozdocs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/cozdocs/blog","blogTitle":"Blog","authorsListPath":"/cozdocs/blog/authors"}')}}]);
