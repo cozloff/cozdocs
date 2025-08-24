@@ -94,7 +94,7 @@ const config: Config = {
           items: [{ label: 'Research & Projects', to: '/docs/intro' }],
         },
         {
-          title: 'Socials',
+          title: 'Community',
           items: [
             { label: 'YouTube', href: 'https://www.youtube.com/@dylancozloff' },
             { label: 'LinkedIn', href: 'https://linkedin.com/in/dylancozloff' },

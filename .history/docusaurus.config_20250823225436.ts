@@ -73,12 +73,6 @@ const config: Config = {
           label: 'Research & Projects',
         },
         { to: '/blog', label: 'Career', position: 'left' },
-
-        {
-          href: 'mailto:cozloffd@gmail.com',
-          label: 'cozloffd@gmail.com',
-          position: 'right',
-        },
         {
           href: 'https://github.com/cozloff',
           label: 'GitHub',
@@ -94,7 +88,7 @@ const config: Config = {
           items: [{ label: 'Research & Projects', to: '/docs/intro' }],
         },
         {
-          title: 'Socials',
+          title: 'Community',
           items: [
             { label: 'YouTube', href: 'https://www.youtube.com/@dylancozloff' },
             { label: 'LinkedIn', href: 'https://linkedin.com/in/dylancozloff' },

@@ -11,19 +11,18 @@ import styles from "./index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx(styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className={styles.heroTitle}>
-          Hi, I&apos;m <span className={styles.highlight}>Dylan Cozloff</span>{" "}
-          🚀
+        <Heading as="h1" className="hero__title">
+          Test
         </Heading>
-        <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className={clsx("button button--lg", styles.ctaButton)}
+            className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Explore Research & Projects →
+            Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -35,8 +34,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Dylan Cozloff - Research, Projects, and Career Docs"
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
       <main>
