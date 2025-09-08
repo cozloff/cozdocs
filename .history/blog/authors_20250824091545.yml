@@ -17,22 +17,9 @@ slorber:
   image_url: https://github.com/slorber.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: "/all-sebastien-lorber-articles"
+    permalink: '/all-sebastien-lorber-articles'
   socials:
     x: sebastienlorber
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
-
-dylan:
-  name: Dylan Cozloff
-  title: Enterprise Software Engineer
-  url: https://dylancozloff.com
-  image_url: https://github.com/cozloff.png
-  page:
-    permalink: "/all-dylan-cozloff-articles"
-  socials:
-    x: dylancozloff
-    linkedin: dylancozloff
-    github: cozloff
-    newsletter: https://cozloff.github.io/cozdocs/

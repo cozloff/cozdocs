@@ -71,7 +71,7 @@ const config: Config = {
           position: 'left',
           label: 'Research & Projects',
         },
-        { to: '/blog/career', label: 'Career', position: 'left' },
+        { to: '/blog', label: 'Career', position: 'left' },
 
         {
           href: 'mailto:cozloffd@gmail.com',
