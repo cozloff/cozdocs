@@ -2,37 +2,202 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cozloff.github.io/cozdocs/blog</id>
     <title>Coz Docs Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-02-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cozloff.github.io/cozdocs/blog"/>
     <subtitle>Coz Docs Blog</subtitle>
     <icon>https://cozloff.github.io/cozdocs/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://cozloff.github.io/cozdocs/blog/welcome</id>
-        <link href="https://cozloff.github.io/cozdocs/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[Career]]></title>
+        <id>https://cozloff.github.io/cozdocs/blog/career</id>
+        <link href="https://cozloff.github.io/cozdocs/blog/career"/>
+        <updated>2025-02-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[💻 Web Applications Development (2025)]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-web-applications-development-2025">💻 Web Applications Development (2025)<a href="https://cozloff.github.io/cozdocs/blog/career#-web-applications-development-2025" class="hash-link" aria-label="Direct link to 💻 Web Applications Development (2025)" title="Direct link to 💻 Web Applications Development (2025)">​</a></h2>
+<p><strong>Hawai'i Department of Education (Feb. 2025 - Current)</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2025-fall">2025 Fall<a href="https://cozloff.github.io/cozdocs/blog/career#2025-fall" class="hash-link" aria-label="Direct link to 2025 Fall" title="Direct link to 2025 Fall">​</a></h3>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li>Advanced into <strong>multi-tenant identity and access management</strong> for enterprise systems with Entra + MSAL, delivering universal login flows for internal and external DOE users.</li>
+<li>Implemented <strong>Redis-backed MSAL token cache</strong> for persistent user sessions in distributed container apps, with full observability in RedisInsight for debugging and operations.</li>
+<li>Built a <strong>confidential client token cache factory</strong> in Node.js (MSAL) to streamline silent token refresh, tenant switching, and expiration logic.</li>
+<li>Standardized DOE’s <strong>Terraform strategy</strong>: modularized infrastructure, managed tfstate in remote blob storage, automated provisioning/teardown of app stacks and global services (Kubernetes, Kafka, container apps).</li>
+<li>Integrated <strong>automated testing</strong> practices: began Postman-based API end-to-end testing, and established shared cloud/lite local test environments.</li>
+<li>Introduced a <strong>self-hosted Kafka event streaming platform</strong> to capture Entra lifecycle events and automate identity-driven workflows.</li>
+<li>Optimized <strong>Graph API user/group operations</strong> with batching, parallelization, and hash maps—eliminating throttling/race conditions and making identity management significantly faster.</li>
+<li>Extended <strong>enterprise observability and UX</strong> with Serilog/Loki/Grafana logging, skeleton loaders, and faster post-attestation flows.</li>
+<li>Automated <strong>secure onboarding flows</strong>: users receive <strong>temporary passwords by email</strong> on creation, combined with role-based restrictions (e.g., limiting institution changes by search admins).</li>
+<li>Optimized <strong>system licensing costs</strong> through custom role management approaches.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://cozloff.github.io/cozdocs/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2025-spring">2025 Spring<a href="https://cozloff.github.io/cozdocs/blog/career#2025-spring" class="hash-link" aria-label="Direct link to 2025 Spring" title="Direct link to 2025 Spring">​</a></h3>
+<ul>
+<li>Designed and implemented <strong>dedicated authentication systems</strong> (Entra for internal, custom identity for external users).</li>
+<li>Built <strong>role-based access control</strong> spanning frontend and backend layers.</li>
+<li>Introduced <strong>external login + email confirmation flows</strong> with 2FA support.</li>
+<li>Automated <strong>infrastructure deployment and database seeding</strong> with Docker, C#, and Terraform.</li>
+<li>Established <strong>frontend frameworks</strong> that standardized UI patterns across projects (React Router, loaders, actions, ShadCN, Zod).</li>
+<li>Led <strong>database migrations</strong> (SQL + Mongo) and created automated data seeding pipelines.</li>
+<li>Built <strong>prototypes of new enterprise applications</strong> in record time to validate requirements.</li>
+<li>Integrated <strong>cloud services (Azure Databricks, Spark, SQL, Terraform)</strong> into DOE workflows.</li>
+<li>Enhanced <strong>UI/UX</strong> with modern responsiveness, search optimizations, and form validation.</li>
+<li>Implemented <strong>logging, caching, and containerization strategies</strong> to support maintainable dev environments.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-computer-science-years-20222024">🎓 Computer Science Years (2022–2024)<a href="https://cozloff.github.io/cozdocs/blog/career#-computer-science-years-20222024" class="hash-link" aria-label="Direct link to 🎓 Computer Science Years (2022–2024)" title="Direct link to 🎓 Computer Science Years (2022–2024)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2024-fall">2024 Fall<a href="https://cozloff.github.io/cozdocs/blog/career#2024-fall" class="hash-link" aria-label="Direct link to 2024 Fall" title="Direct link to 2024 Fall">​</a></h3>
+<ul>
+<li><strong>Graduated</strong> with <strong>B.S. in Computer Science</strong>, GPA <strong>3.56</strong> 🎓</li>
+<li>Courses:<!-- -->
+<ul>
+<li><strong>AWS Cloud Computing</strong> – AWS Cloud Practitioner Certification</li>
+<li><strong>MySQL</strong> – Database Management Systems</li>
+<li><strong>Computer Networks</strong></li>
+<li>
+<ul>
+<li>1 non-core elective</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Forex Transformer AI Project</strong>
+<ul>
+<li>Built predictive transformer models (Python, C#, C++, JavaScript, AWS).</li>
+<li>Deployed training on <strong>Lambda Labs H100 GPUs</strong>.</li>
+<li>Fine-tuned attention layers across currency pairs.</li>
+<li>Managed I/O, memory optimization, and data sharding.</li>
+</ul>
+</li>
+<li><strong>Infra Work</strong>
+<ul>
+<li>Built first <strong>ASP.NET API</strong> with C# AWS CDK + Terraform for global ARM probe deployments.</li>
+<li>Deployed Express(Node)/Redis API to collect traceroutes → loaded into <strong>Postgres</strong>.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2024-summer">2024 Summer<a href="https://cozloff.github.io/cozdocs/blog/career#2024-summer" class="hash-link" aria-label="Direct link to 2024 Summer" title="Direct link to 2024 Summer">​</a></h3>
+<ul>
+<li>Tech stack: <strong>Python, AWS, Terraform</strong>.</li>
+<li>Experimented with <strong>serverless (Lambda, S3)</strong>.</li>
+<li>Automated deployments with Terraform.</li>
+<li>Started building a <strong>PyTorch Transformer</strong> for forex market prediction.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2024-spring">2024 Spring<a href="https://cozloff.github.io/cozdocs/blog/career#2024-spring" class="hash-link" aria-label="Direct link to 2024 Spring" title="Direct link to 2024 Spring">​</a></h3>
+<ul>
+<li><strong>Team Unity Project (C#)</strong> – Isometric procedural generation game (team of 11).<!-- -->
+<ul>
+<li>Gained valuable <strong>Git collaboration</strong> + <strong>C# experience</strong>.</li>
+</ul>
+</li>
+<li>Courses:<!-- -->
+<ul>
+<li><strong>Computer &amp; Network Forensics</strong></li>
+<li><strong>Compiler Construction (Java)</strong></li>
+<li><strong>Digital Image Processing (Python/R)</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2023-fall">2023 Fall<a href="https://cozloff.github.io/cozdocs/blog/career#2023-fall" class="hash-link" aria-label="Direct link to 2023 Fall" title="Direct link to 2023 Fall">​</a></h3>
+<ul>
+<li>Dean’s List, GPA <strong>3.93</strong>.</li>
+<li>Courses:<!-- -->
+<ul>
+<li><strong>Operating Systems (C, Bash)</strong></li>
+<li><strong>Machine Learning (Python)</strong></li>
+<li><strong>Programming Language Concepts</strong> (C/C++, Python, Java)</li>
+<li><strong>Automata &amp; Formal Languages (Computational Complexity)</strong></li>
+<li><strong>Social Implications of Computer Technology</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2023-summer">2023 Summer<a href="https://cozloff.github.io/cozdocs/blog/career#2023-summer" class="hash-link" aria-label="Direct link to 2023 Summer" title="Direct link to 2023 Summer">​</a></h3>
+<ul>
+<li>Tech stack: <strong>JavaScript, Python, React, Django, Docker, AWS</strong>.</li>
+<li>Built first <strong>deployed full-stack project</strong>:<!-- -->
+<ul>
+<li>Nutrition meal builder → 100+ nutritional targets, body composition-tailored.</li>
+<li>CSR React App deployed via <strong>Nginx on EC2</strong>.</li>
+<li>Django REST API container reverse-proxied.</li>
+<li><strong>Postgres RDS</strong> backend.</li>
+<li>Selenium scraper for USDA nutritional data.</li>
+</ul>
+</li>
+<li><strong>DevOps</strong>:<!-- -->
+<ul>
+<li>Docker Compose for dev + prod.</li>
+<li>GitHub Actions CI/CD → pushed images to Docker Hub → auto-deploy to AWS.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2023-spring">2023 Spring<a href="https://cozloff.github.io/cozdocs/blog/career#2023-spring" class="hash-link" aria-label="Direct link to 2023 Spring" title="Direct link to 2023 Spring">​</a></h3>
+<ul>
+<li>Courses:<!-- -->
+<ul>
+<li><strong>Computer Organization (MIPS)</strong></li>
+<li><strong>Algorithms (C++)</strong></li>
+<li><strong>Computational Linear Algebra (MATLAB)</strong></li>
+<li><strong>Advanced Logic</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2022-fall">2022 Fall<a href="https://cozloff.github.io/cozdocs/blog/career#2022-fall" class="hash-link" aria-label="Direct link to 2022 Fall" title="Direct link to 2022 Fall">​</a></h3>
+<ul>
+<li>Courses:<!-- -->
+<ul>
+<li><strong>Systems Programming (x86 Assembly)</strong></li>
+<li><strong>Data Structures (C++)</strong></li>
+<li><strong>Engineering Statistics (R)</strong></li>
+<li><strong>Symbolic Logic</strong></li>
+<li>
+<ul>
+<li>1 non-core elective</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2022-summer">2022 Summer<a href="https://cozloff.github.io/cozdocs/blog/career#2022-summer" class="hash-link" aria-label="Direct link to 2022 Summer" title="Direct link to 2022 Summer">​</a></h3>
+<ul>
+<li>First <strong>serious React project</strong>:<!-- -->
+<ul>
+<li><strong>React + Django full-stack app</strong> with maps &amp; chat.</li>
+<li>Features:<!-- -->
+<ul>
+<li>React Router (early version → evolved into current framework).</li>
+<li><strong>Google Maps API</strong> (location data, polylines, map tiles).</li>
+<li><strong>Material UI</strong> components.</li>
+<li><strong>Django REST API</strong> for user management.</li>
+<li><strong>Django Channels (WebSockets)</strong> for real-time communication.</li>
+</ul>
+</li>
+<li>Built real-time <strong>interactive map + chat room</strong> with multi-user logistics.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2022-spring">2022 Spring<a href="https://cozloff.github.io/cozdocs/blog/career#2022-spring" class="hash-link" aria-label="Direct link to 2022 Spring" title="Direct link to 2022 Spring">​</a></h3>
+<ul>
+<li>Officially switched major → <strong>Computer Science</strong> 🎉.</li>
+<li>Courses:<!-- -->
+<ul>
+<li><strong>C++ – Object-Oriented Programming</strong></li>
+<li><strong>Discrete Mathematics</strong></li>
+<li><strong>Technical Writing</strong></li>
+<li>
+<ul>
+<li>2 non-core electives</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
+            <name>Dylan Cozloff</name>
+            <uri>https://dylancozloff.com</uri>
         </author>
         <category label="Facebook" term="Facebook"/>
         <category label="Hello" term="Hello"/>
@@ -42,13 +207,13 @@
         <title type="html"><![CDATA[MDX Blog Post]]></title>
         <id>https://cozloff.github.io/cozdocs/blog/mdx-blog-post</id>
         <link href="https://cozloff.github.io/cozdocs/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
+        <updated>1000-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
 <div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
 <!-- -->
 <p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(220, 13%, 18%);--prism-color:hsl(220, 14%, 71%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="background-color:hsl(220, 13%, 18%);color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token operator" style="color:hsl(207, 82%, 66%)">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">{</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">(</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:hsl(207, 82%, 66%)">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:hsl(207, 82%, 66%)">alert</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">(</span><span class="token string" style="color:hsl(95, 38%, 62%)">'button clicked!'</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">)</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">}</span><span class="token operator" style="color:hsl(207, 82%, 66%)">&gt;</span><span class="token maybe-class-name" style="color:hsl(29, 54%, 61%)">Click</span><span class="token plain"> me</span><span class="token operator" style="color:hsl(207, 82%, 66%)">!</span><span class="token operator" style="color:hsl(207, 82%, 66%)">&lt;</span><span class="token operator" style="color:hsl(207, 82%, 66%)">/</span><span class="token plain">button</span><span class="token operator" style="color:hsl(207, 82%, 66%)">&gt;</span><br></span></code></pre></div></div>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(220, 13%, 18%);--prism-color:hsl(220, 14%, 71%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="background-color:hsl(220, 13%, 18%);color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(220, 14%, 71%);text-shadow:0 1px rgba(0, 0, 0, 0.3)"><span class="token operator" style="color:hsl(207, 82%, 66%)">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:hsl(207, 82%, 66%)">=</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">{</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">(</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:hsl(207, 82%, 66%)">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:hsl(207, 82%, 66%)">alert</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">(</span><span class="token string" style="color:hsl(95, 38%, 62%)">"button clicked!"</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">)</span><span class="token punctuation" style="color:hsl(220, 14%, 71%)">}</span><span class="token operator" style="color:hsl(207, 82%, 66%)">&gt;</span><span class="token maybe-class-name" style="color:hsl(29, 54%, 61%)">Click</span><span class="token plain"> me</span><span class="token operator" style="color:hsl(207, 82%, 66%)">!</span><span class="token operator" style="color:hsl(207, 82%, 66%)">&lt;</span><span class="token operator" style="color:hsl(207, 82%, 66%)">/</span><span class="token plain">button</span><span class="token operator" style="color:hsl(207, 82%, 66%)">&gt;</span><br></span></code></pre></div></div>
 <button>Click me!</button>]]></content>
         <author>
             <name>Sébastien Lorber</name>
@@ -60,7 +225,7 @@
         <title type="html"><![CDATA[Long Blog Post]]></title>
         <id>https://cozloff.github.io/cozdocs/blog/long-blog-post</id>
         <link href="https://cozloff.github.io/cozdocs/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
+        <updated>1000-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
         <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
 <p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
@@ -91,7 +256,7 @@
         <title type="html"><![CDATA[First Blog Post]]></title>
         <id>https://cozloff.github.io/cozdocs/blog/first-blog-post</id>
         <link href="https://cozloff.github.io/cozdocs/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
+        <updated>1000-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
 <p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
