@@ -72,7 +72,7 @@ I specialize in building **scalable, secure, and observable systems** at the int
 - **Backend**: ASP.NET Core, Node.js, Express, Entity Framework
 - **Databases**: PostgreSQL, MySQL, SQL Server, MongoDB
 - **DevOps & Cloud**: Terraform, Docker, Azure, AWS (Cloud Practitioner)
-- **Python Tools**: Numpy, Pandas, PyTorch, Selenium
+- **Python Tools**: Numpy, Pandas, PyTorch, PySpark, Selenium
 
 ---
 
