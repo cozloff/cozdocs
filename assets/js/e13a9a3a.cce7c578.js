@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcozdocs=self.webpackChunkcozdocs||[]).push([[219],{8632:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/cozdocs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

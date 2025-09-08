@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcozdocs=self.webpackChunkcozdocs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Career","permalink":"/cozdocs/blog/career","unlisted":false,"date":"2025-02-04T00:00:00.000Z"}]}')}}]);
